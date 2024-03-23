@@ -1,0 +1,29 @@
+[user]
+  name = Marlon Lorram
+  email = marlonlorram96@gmail.com
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+  ignorecase = false
+  untrackedCache = true
+  trustctime = false
+[pull]
+  rebase = true
+[push]
+  default = current
+[merge]
+  ff = false
+[color]
+  ui = true
+[pager]
+  branch = false
+  diff = less -+FX
+[commit]
+  verbose = true
+[diff]
+  noprefix = true
+[protocol]
+  version = 2
+[rebase]
+  autoStash = true

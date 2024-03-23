@@ -1,0 +1,12 @@
+## Node
+node_modules/
+
+## Vagrant
+.vagrant/
+
+## Ansible
+*.retry
+hosts
+
+## Editors
+.vscode/
