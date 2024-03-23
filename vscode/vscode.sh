@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # The directory for configuration files
-config_dir="~/dotfiles/vscode"
+config_dir=~/dotfiles/vscode
 
 # Create symbolic links for configuration files
 find $config_dir -name '*.json' -maxdepth 1 -print0 | while IFS= read -r -d '' file; do
