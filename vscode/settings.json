@@ -1,0 +1,73 @@
+{
+    "breadcrumbs.enabled": true,
+    "debug.showInStatusBar": "never",
+    "editor.dragAndDrop": false,
+    "editor.fontSize": 15,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+    "explorer.sortOrder": "type",
+    "extensions.ignoreRecommendations": true,
+    "files.defaultLanguage": "markdown",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.toc.levels": "2..6",
+    "search.showLineNumbers": true,
+    "search.useGlobalIgnoreFiles": true,
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.fontAliasing": "auto",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "newUntitledFile",
+    "go.toolsManagement.autoUpdate": true,
+    "window.zoomLevel": 1,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.vagrant": true,
+        "**/.vscode": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+        "*.yml.j2": "yaml",
+        "*.toml.j2": "toml",
+        "*.json.j2": "json",
+        "*.conf.j2": "ini",
+        "Dockerfile.j2": "dockerfile",
+        "Dockerfile.prod": "dockerfile",
+        ".env.j2": "ini",
+        ".zshrc.j2": "ini",
+        ".env": "ini",
+        ".env.testing": "ini",
+        ".env.example": "ini",
+        ".env.travis": "ini",
+        "*.yml": "yaml"
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/js": true,
+        "package-lock.lock": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/dist/**": true
+    },
+    "gitlens.mode.active": "zen",
+    "go.useLanguageServer": true,
+    "files.autoSave": "afterDelay"
+}
