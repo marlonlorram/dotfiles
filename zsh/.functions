@@ -1,0 +1,14 @@
+# Function to add all changes to the staging area
+function stage_all_changes() {
+  git add -A
+}
+
+# Function to remove deleted files from the staging area
+function remove_deleted_files() {
+  git ls-files --deleted -z | xargs -0 git rm
+}
+
+# Function to commit changes with a specific message
+function commit_changes() {
+  git commit --no-verify -m "--wip-- [skip ci]"
+}
