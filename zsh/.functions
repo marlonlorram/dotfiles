@@ -12,3 +12,26 @@ function remove_deleted_files() {
 function commit_changes() {
   git commit --no-verify -m "--wip-- [skip ci]"
 }
+
+# Function to clone a repository
+function clone() {
+    # Check if the repository URL was provided
+    if [ -z "$1" ]; then
+        echo "Please provide the Git repository URL as an argument."
+        return 1
+    fi
+
+    # Extract the base name of the repository from the URL
+    basename=$(basename $1 .git)
+
+    # Clone the repository and enter the cloned directory
+    # If cloning fails, print an error message and return
+    if ! git clone $1; then
+        echo "Failed to clone the repository $1"
+        return 1
+    fi
+
+    # Enter the cloned directory
+    cd $basename || return
+}
+
